@@ -1,3 +1,9 @@
+# StandardScaler standardizes data around mean 0.
+# Data is normally distributed
+# It transforms data so that:-
+# Mean = 0
+# Standard Deviation = 1
+
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split

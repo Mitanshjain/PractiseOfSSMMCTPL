@@ -1,3 +1,10 @@
+# MinMaxScaler compresses data into a fixed range (usually 0–1).
+# Smallest value → becomes 0
+
+# Largest value → becomes 1
+
+# All other values → between 0 and 1
+
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
